@@ -1,0 +1,23 @@
+
+
+.lmj-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: right;
+  padding: 2rem;
+  background-color: rgb(91, 200, 109);
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 6px 29px 0px rgba(0, 0, 0, 0.203);
+}
+.lmj-logo{
+  margin-right: auto;
+  max-width: 3rem ;
+}
+
+.ljm-title{
+  padding-inline: 2rem ;
+  font-size: 1.2rem;
+}

@@ -1,3 +1,5 @@
+import '../styles/Header.css';
+import logo from '../assets/logo192.png'
 
 function Header() {
   
@@ -6,15 +8,16 @@ function Header() {
   const user = {
     firstname : 'John',
     name: 'Doe',
-    message: 'Nice to see you again'
+    message: 'Nice to see you again...'
   }
   
   return (
     <div>
-      <h1>
+      <div className='lmj-header'>
+        <img src={logo} alt='logo la maison jungle' className='lmj-logo'></img>
         { title.toUpperCase() }      
-      </h1>
-      <p> Hello {`${user.firstname} ${user.name}, ${user.message}`} </p>
+      </div>
+      <p className='ljm-title'> Hello {`${user.firstname} ${user.name}, ${user.message}`} </p>
     </div>
   );
 }

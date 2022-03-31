@@ -1,6 +1,6 @@
 import React from 'react';
-import  Banner from './Components/Banner'
-import Cart from './Components/Cart'
+import  Banner from './components/Banner'
+import Cart from './components/Cart'
 
 function App() {
   return (
