@@ -1,0 +1,24 @@
+.lmj-cart{
+  padding: 2rem;
+  color: #fff;
+  font-weight: 300;
+  background-color: #31b572;
+  max-width: 30vh;
+  height: 100vh;
+  text-align: right;
+}
+.lmj-cart > ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+.lmj-cart > ul > li{
+  margin-bottom: .8rem;
+} 
+.lmj-cart-price{
+  font-weight: 300;
+  text-align: right;
+}

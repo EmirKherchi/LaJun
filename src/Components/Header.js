@@ -8,7 +8,7 @@ function Header() {
   const user = {
     firstname : 'John',
     name: 'Doe',
-    message: 'Nice to see you again...'
+    message: 'Nice to see you again...👏'
   }
   
   return (

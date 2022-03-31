@@ -5,10 +5,10 @@ import Header from './Header';
 
 function Banner() {
   return (
-   <React.Fragment>
+   <div className='lmj-banner'>
       <Header />
       <Description />
-   </React.Fragment>
+   </div>
   );
 }
 

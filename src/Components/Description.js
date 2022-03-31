@@ -1,7 +1,7 @@
 
 function Description() {
   return (
-    <div>
+    <div className="ljm-title">
       <p>Ici achetez toutes les plantes dont vous avez toujours rêvé 🌵 🌱 🎍</p>
     </div>
   );

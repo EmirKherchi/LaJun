@@ -1,3 +1,4 @@
+import '../styles/Cart.css';
 
 function Cart() {
 
@@ -24,17 +25,17 @@ cart.forEach(item => {
 });
   
   return (
-    <div>
+    <div className='lmj-cart'>
       <ul>
         {
           cart.map((value) => {
-            return <li> { value.name } - { value.price.toFixed(2) } eur </li>
+            return <li> { value.name } - <span className='lmj-cart-price'> { value.price.toFixed(2) } € </span> </li>
           })
         }
 
       </ul>
       <h4>
-        Total du panier : { total.toFixed(2) } eur
+        Total du panier : { total.toFixed(2) } €
       </h4>
     </div>
   );

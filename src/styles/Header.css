@@ -1,23 +1,27 @@
-
+.lmj-banner{
+  box-shadow: 3px 6px 29px 0px rgba(0, 0, 0, 0.042);
+  background-color: rgba(255, 255, 255, 0.688);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
 .lmj-header{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  font-size: 2rem;
+  justify-content: space-between;
+  font-size: 1.5rem;
   font-weight: 100;
-  text-align: right;
-  padding: 2rem;
-  background-color: rgb(91, 200, 109);
+  padding: 1.5rem;
+  background-color: #31b572;;
   color: rgb(255, 255, 255);
-  box-shadow: 3px 6px 29px 0px rgba(0, 0, 0, 0.203);
 }
 .lmj-logo{
-  margin-right: auto;
-  max-width: 3rem ;
+  max-width: 2rem ;
 }
 
 .ljm-title{
   padding-inline: 2rem ;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-align: right;
+  padding-bottom: .1rem;
 }
