@@ -3,9 +3,10 @@
   color: #fff;
   font-weight: 300;
   background-color: #31b572;
-  max-width: 30vh;
-  height: 100vh;
+  max-width: 15vw;
+  height: 65vh;
   text-align: right;
+
 }
 .lmj-cart > ul{
   list-style: none;
